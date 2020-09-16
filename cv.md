@@ -11,6 +11,7 @@ Compulsive coding. 8 hours sleeping. Everyday milk, cakes, and castle.
 ## Skills
 * html, css, js
 * purr, meow, sleep
+* git
 
 ## Code sample
 https://www.codewars.com/kata/558dd9a1b3f79dc88e000001
@@ -34,7 +35,7 @@ function findDup(arr) {
 ## Experience
 1. node.js, 2 months of backend
 1. html+css, random pages
-1. 
+1. sleeping, 1/3 of my life
 
 ## Education
 Decades of internet reading
