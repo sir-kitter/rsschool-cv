@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sir-kitter.github.io/rsschool-cv/cv
