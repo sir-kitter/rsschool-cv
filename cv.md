@@ -34,6 +34,7 @@ function findDup(arr) {
 ## Experience
 1. node.js, 2 months of backend
 1. html+css, random pages
+1. 
 
 ## Education
 Decades of internet reading
