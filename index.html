@@ -8,95 +8,96 @@
   </head>
   <body>
     <div id="page-container">
-    <header class="header">
-      <div class="header-title">
-        <img src="logo.png" alt="Logo">
-        <h1 class="menu-item" style="white-space: nowrap;">
-          Sir Kitter
-        </h1>
-      </div>
-      <nav class="menu-navigation">
-        <a class="menu-item" href="#contact-info">Contact info</a>
-        <a class="menu-item" href="#summary">Summary</a>
-        <a class="menu-item" href="#skills">Skills</a>
-        <a class="menu-item" href="#code-sample">Code sample</a>
-        <a class="menu-item" href="#experience">Experience</a>
-        <a class="menu-item" href="#education">Education</a>
-        <a class="menu-item" href="#english">English</a>
-      </nav>
-    </header>
+      <header class="header">
+        <div class="header-title">
+          <img src="logo.png" alt="Logo" />
+          <h1 class="menu-item" style="white-space: nowrap">Sir Kitter</h1>
+        </div>
+        <nav class="menu-navigation">
+          <a class="menu-item" href="#contact-info">Contact info</a>
+          <a class="menu-item" href="#summary">Summary</a>
+          <a class="menu-item" href="#skills">Skills</a>
+          <a class="menu-item" href="#code-sample">Code sample</a>
+          <a class="menu-item" href="#experience">Experience</a>
+          <a class="menu-item" href="#education">Education</a>
+          <a class="menu-item" href="#english">English</a>
+        </nav>
+      </header>
 
-    <main>
-      <section>
-        <h2 id="contact-info">Contact info</h2>
-        <ul>
-          <li>
-            email: <a href="sire.kitter@gmail.com">sire.kitter@gmail.com</a>
-          </li>
-          <li>discord: KillingFrenzy#0325</li>
-          <li>mobile: +7950xxxxxxx</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="summary">Summary</h2>
-        <p>
-          Compulsive coding. 8 hours sleeping. Everyday milk, cakes, and castle
-        </p>
-      </section>
-      <section>
-        <h2 id="skills">Skills</h2>
-        <ul>
-          <li>html, css, js</li>
-          <li>purr, meow, sleep</li>
-          <li>git</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="code-sample">Code sample</h2>
-        <figure>
-          <figcaption>
-            <a href="https://www.codewars.com/kata/558dd9a1b3f79dc88e000001">Codewars kata</a>
-          </figcaption>
-          <pre><code>function findDup(arr) {
+      <main>
+        <section>
+          <h2 id="contact-info">Contact info</h2>
+          <ul>
+            <li>
+              email: <a href="sire.kitter@gmail.com">sire.kitter@gmail.com</a>
+            </li>
+            <li>discord: KillingFrenzy#0325</li>
+            <li>mobile: +7950xxxxxxx</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="summary">Summary</h2>
+          <p>
+            Compulsive coding. 8 hours sleeping. Everyday milk, cakes, and
+            castle
+          </p>
+        </section>
+        <section>
+          <h2 id="skills">Skills</h2>
+          <ul>
+            <li>html, css, js</li>
+            <li>purr, meow, sleep</li>
+            <li>git</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="code-sample">Code sample</h2>
+          <figure>
+            <figcaption>
+              <a href="https://www.codewars.com/kata/558dd9a1b3f79dc88e000001"
+                >Codewars kata</a
+              >
+            </figcaption>
+            <pre><code>function findDup(arr) {
   const nsum = (arr.length - 1) * arr.length / 2
   return arr.reduce((a, v) => a + v) - nsum
 }</code></pre>
-          <p>or general solution for any type of elements:</p>
-          <pre><code>function findDup(arr) {
+            <p>or general solution for any type of elements:</p>
+            <pre><code>function findDup(arr) {
   let present = new Set()
   for (value of arr) {
     if (present.has(value)) return value
     present.add(value)
   }
 }</code></pre>
-        </figure>
-      </section>
-      <section>
-        <h2 id="experience">Experience</h2>
-        <ol>
-          <li>node.js, 2 months of backend</li>
-          <li>html+css, random pages</li>
-          <li>sleeping, 1/3 of my life</li>
-        </ol>
-      </section>
-      <section>
-        <h2 id="education">Education</h2>
-        <p>Decades of internet reading</p>
-      </section>
-      <section>
-        <h2 id="english">English</h2>
-        <ul>
-          <li>Random voice chats</li>
-          <li>IRC game chats</li>
-          <li>Fluent reading and writing</li>
-        </ul>
-      </section>
-    </main>
+          </figure>
+        </section>
+        <section>
+          <h2 id="experience">Experience</h2>
+          <ol>
+            <li>node.js, 2 months of backend</li>
+            <li>html+css, random pages</li>
+            <li>sleeping, 1/3 of my life</li>
+          </ol>
+        </section>
+        <section>
+          <h2 id="education">Education</h2>
+          <p>Decades of internet reading</p>
+        </section>
+        <section>
+          <h2 id="english">English</h2>
+          <ul>
+            <li>Random voice chats</li>
+            <li>IRC game chats</li>
+            <li>Fluent reading and writing</li>
+          </ul>
+        </section>
+      </main>
 
-    <footer>
-      <hr>
-      This footer intentionaly left blank
-    </footer>
+      <footer>
+        <hr />
+        This footer intentionaly left blank
+      </footer>
     </div>
   </body>
 </html>
