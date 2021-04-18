@@ -9,7 +9,7 @@
 Compulsive coding. 8 hours sleeping. Everyday milk, cakes, and castle.
 
 ## Skills
-* html, css, js
+* html, css, js, c++
 * purr, meow, sleep
 * git
 
@@ -34,7 +34,8 @@ function findDup(arr) {
 
 ## Experience
 1. node.js, 2 months of backend
-1. html+css, random pages
+1. html+css, several months, random pages
+1. c++ senior, 15+ years
 1. sleeping, 1/3 of my life
 
 ## Education
@@ -42,5 +43,5 @@ Decades of internet reading
 
 ## English
 * Random voice chats
-* IRC game chats
+* IRC chats
 * Fluent reading and writing
